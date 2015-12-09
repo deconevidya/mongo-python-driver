@@ -13,8 +13,8 @@ services:
 
 script: python setup.py test
 
-install:
+#install:
     # Temporary solution for Travis CI multiprocessing issue #943
-    - sudo rm -rf /dev/shm && sudo ln -s /run/shm /dev/shm
+   # - sudo rm -rf /dev/shm && sudo ln -s /run/shm /dev/shm
 
 archive: true
