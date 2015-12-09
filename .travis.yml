@@ -20,3 +20,5 @@ script: python setup.py test
 archive: true
 
 build_image: drydock/u14pytpls:prod
+
+cache: true
