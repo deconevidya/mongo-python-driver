@@ -18,6 +18,6 @@ script: python setup.py test
    # - sudo rm -rf /dev/shm && sudo ln -s /run/shm /dev/shm
 
 archive: true
-build_image: drydock/u12pytpls:tip
+build_image: drydock/u14pytpls:tip
 
 #cache: true
